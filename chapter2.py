@@ -1,16 +1,7 @@
 #!/usr/bin/env python3.10
-#
-#
-# This is a test
-# This is a test of magit
 
+first_name = "ada"
+last_name = "lovelace"
 
-print("Hello Python World!")
-
-message = "Hello Python Crash Course Readers"
-print(message)
-message = "Message v2"
-print(message)
-
-name = "ada lovelace"
-print(name.title())
+full_name = f"{first_name} {last_name}"
+print(f"Hello, {full_name.title()}")
