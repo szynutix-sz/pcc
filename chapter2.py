@@ -16,5 +16,20 @@
 # simple_url = google_url.removeprefix("https://")
 # print(simple_url)
 
-message = "One of Python's streanghts is its community"
+first_name = "szymon"
+last_name = "bar"
+
+print(f"Hello {first_name.title()}! Come with me to learn some Python!")
+
+full_name = f"{first_name} {last_name}"
+print(f"{full_name.lower()}\n{full_name.upper()}\n{full_name.lower()}")
+
+famous_person = "alber einstein"
+message = f'{famous_person.title()} once said "A person who never makes a mistake never tried anything new"'
 print(message)
+
+full_name = "\n\t\tszymon\nbar\t\n"
+print(full_name)
+print(full_name.rstrip())
+print(full_name.lstrip())
+print(full_name.strip())
