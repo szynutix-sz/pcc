@@ -2,4 +2,5 @@
 #
 #
 # This is a test
+# This is a test of magit
 print("Hello Python World!")
