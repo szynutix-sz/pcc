@@ -22,7 +22,7 @@ last_name = "bar"
 print(f"Hello {first_name.title()}! Come with me to learn some Python!")
 
 full_name = f"{first_name} {last_name}"
-print(f"{full_name.lower()}\n{full_name.upper()}\n{full_name.lower()}")
+print(f"{full_name.lower()}\n{full_name.upper()}\n{full_name.title()}")
 
 famous_person = "alber einstein"
 message = f'{famous_person.title()} once said "A person who never makes a mistake never tried anything new"'
