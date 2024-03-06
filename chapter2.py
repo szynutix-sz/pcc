@@ -11,3 +11,6 @@ message = "Hello Python Crash Course Readers"
 print(message)
 message = "Message v2"
 print(message)
+
+name = "ada lovelace"
+print(name.title())
