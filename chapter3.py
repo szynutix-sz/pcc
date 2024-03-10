@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.12
 #
 list = ['trek', 'specialized', 'gondole', 'redline']
-print(list[0])
+mess = f"My first bicicle was {list[0].title()}"
+print(list[-1].title())
